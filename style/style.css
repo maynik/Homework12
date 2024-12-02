@@ -16,7 +16,7 @@
 
 header .container {
     background-color: #fff;
-    margin-top: 25px;
+    margin-top: 29px;
     text-align: center;
 }
 section {
@@ -53,6 +53,8 @@ padding: 0;
 margin: 0;
 list-style: none;
 align-items: center;
+gap: 25px;
+padding-right: 135px;
 }
 
 nav ul li {
@@ -166,7 +168,7 @@ background: #46A358;
 float: left;
 max-width: 50%;
 padding-left: 43px;
-padding-top: 65px;
+padding-top: 53px;
 }
 
 .container .right-side {
@@ -213,7 +215,7 @@ padding: 11px 27px 9px 26px;
         float: left;
         width: 310px;
         background-color: #FBFBFB;
-        margin-top: 190px;
+        margin-top: 125px;
     }
     .sidebar h2{
         font-family: 'Cera Pro';
@@ -227,7 +229,7 @@ padding: 11px 27px 9px 26px;
         padding-left: 18px;
     }
     .unit2 {
-        padding-top: 90px;
+        padding-top: 160px;
     }
     .sidebar ul{
         padding-left: 30px;
@@ -251,10 +253,11 @@ padding: 11px 27px 9px 26px;
         float: right;
         padding-left: 50px;
         max-width: 840px;
+        padding-top: 40px;
     }
 
     .baner_sidebar {
-        padding: 24px 4px;
+        padding: 0;
     }
     
     .nav-tabs {
@@ -344,6 +347,10 @@ padding: 11px 27px 9px 26px;
             vertical-align: middle;
             margin-top: 2px;  
         }
+        h1{
+            font-weight: bold;
+            font-size: 71px!important;
+        }
 
     .icon {
         position: absolute;
@@ -381,8 +388,7 @@ padding: 11px 27px 9px 26px;
        /*hw8*/
        .container8{
         display: inline-block;
-        margin-left: 104px;
-        margin-top: 94px;
+        margin-top: 160px;
        }
        .top_news {
         justify-content: space-between;
@@ -434,7 +440,7 @@ padding: 11px 27px 9px 26px;
         vertical-align: middle;
     }
     .blog_post{
-        margin-top: 138px;
+        margin-top: 65px;
         margin-bottom: 20px;
     }
     .inform {
@@ -507,20 +513,10 @@ padding: 11px 27px 9px 26px;
         color: #46A358;
     }
      /*hw11*/
-     @font-face {
-        font-family: 'Cera Pro';
-        src: url('../font/CeraPro-Thin.woff') format('woff2'),
-             url('../font/CeraPro-Thin.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-        body{
-            margin-top: 50px;
-        }
         footer {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 24px 0 29px 0;
+        padding: 123px 0 29px 0;
         background-color: #FBFBFB;
         border-bottom: 1px solid rgba(70, 163, 88, 0.2);
         }
