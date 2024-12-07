@@ -80,7 +80,7 @@ button.btn:hover {
 .bottom-line {
     height: 10px;
     background-color: green;
-    margin-top: 62px;
+    margin-top: 50px;
 }
 
 span.close-btn {
@@ -89,4 +89,29 @@ span.close-btn {
     cursor: pointer;
     color: #46A358;
     margin: 10px;
+}
+/*чекбокси*/
+.checkbox-container {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #3D3D3D;
+}
+
+.checkbox-container label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input.checkbox {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+form.contakt-form {
+    display: grid;
+    justify-content: center;
 }
